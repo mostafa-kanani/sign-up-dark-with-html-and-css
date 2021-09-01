@@ -1,0 +1,172 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #131419;
+  overflow:hidden; 
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container{
+  width: 380px;
+  height: px;
+  background: #131419;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+  5px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.title{
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-shadow:  -5px -5px 10px rgba(255, 255, 255, 0.05),
+  5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+h3{
+  color: #555;
+  font-size: 15px;
+  margin-top: 16px;
+}
+.username,.password{
+  text-align:center; 
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+input[type="username"],[type="password"]{
+  outline: none;
+  border: none;
+  background: #131419;
+  text-align: center;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+  5px 5px 15px rgba(0, 0, 0, 0.5);
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+input[type="email"]{
+  outline: none;
+  border: none;
+  background: #131419;
+  text-align: center;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+  5px 5px 15px rgba(0, 0, 0, 0.5);
+  width: 270px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 3rem;
+  margin-left: 56px;
+  color: #fff;
+}
+.password-2{
+  margin-top: 3rem;
+  margin-left: 56px;
+}
+input[type="checkbox"]{
+  width: 30px;
+  height: 30px;
+  background: #131419;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+  5px 5px 15px rgba(0, 0, 0, 0.5);
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+span{
+   color: #fff;
+   text-transform: capitalize;
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 1px;
+}
+.text{
+  margin-left: 4rem;
+  margin-top: -25px;
+  text-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+  5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.another-way-for-sign-up{
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1xp;
+  margin-top: 1rem;
+}
+.btn {
+  margin-top: 30px;
+  text-align: center;
+}
+button[type="button"]{
+  outline: none;
+  border: none;
+  background:orangered;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+  5px 5px 15px rgba(0, 0, 0, 0.5);
+  width: 250px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+button[type="button"]:focus{
+  width: 300px; 
+  transition: all 0.4s ease;
+}
+/*code-login-form*/
+.media{
+  margin-top: 3px;
+  text-align: center;
+  font-size: 29px;
+}
+.fa-instagram:nth-child(2){
+  color: crimson;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+  5px 5px 15px rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius:50%; 
+}
+
+.fa-facebook:nth-child(4){
+  color: dodgerblue;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+  5px 5px 15px rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius:50%; 
+}
+.fa-github:nth-child(6){
+  color: cornflowerblue;
+  cursor: pointer;
+  margin: 10px;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+  5px 5px 15px rgba(0, 0, 0, 0.5);
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius:50%; 
+}
+/*frontend_mostafa*/
